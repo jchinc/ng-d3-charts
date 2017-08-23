@@ -1,0 +1,22 @@
+{
+    "name": "@ng-d3-charts/bar",
+    "version": "1.0.0",
+    "description": "Gráfica de barras utilizando Angular y D3",
+    "main": "bundles/bar-chart.umd.js",
+    "module": "index.js",
+    "typings": "index.d.ts",
+    "author": "José Chin",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jchinc/ng-d3-charts.git"
+    },
+    "homepage": "https://github.com/jchinc/ng-d3-charts",
+    "bugs": {
+      "url": "https://github.com/jchinc/ng-d3-charts.git/issues"
+    },
+    "peerDependencies": {
+      "@angular/core": "^2.4.0 || ^4.0.0",
+      "rxjs": "^5.0.1"
+    }
+  }

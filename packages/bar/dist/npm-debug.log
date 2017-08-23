@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Users\\DEVELOPER\\Documents\\JOSE\\GITHUB\\ng-d3-charts\\packages\\bar\\dist',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\DEVELOPER\AppData\Roaming\npm-cache\@ng-d3-charts\bar\1.0.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\DEVELOPER\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle @ng-d3-charts/bar@1.0.0~prepublish: @ng-d3-charts/bar@1.0.0
+11 silly lifecycle @ng-d3-charts/bar@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\DEVELOPER\\AppData\\Roaming\\npm-cache\\@ng-d3-charts\\bar\\1.0.0\\package.tgz',
+12 verbose tar pack   'C:\\Users\\DEVELOPER\\Documents\\JOSE\\GITHUB\\ng-d3-charts\\packages\\bar\\dist' ]
+13 verbose tarball C:\Users\DEVELOPER\AppData\Roaming\npm-cache\@ng-d3-charts\bar\1.0.0\package.tgz
+14 verbose folder C:\Users\DEVELOPER\Documents\JOSE\GITHUB\ng-d3-charts\packages\bar\dist
+15 verbose addLocalTarball adding from inside cache C:\Users\DEVELOPER\AppData\Roaming\npm-cache\@ng-d3-charts\bar\1.0.0\package.tgz
+16 verbose correctMkdir C:\Users\DEVELOPER\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd @ng-d3-charts/bar@1.0.0
+18 verbose afterAdd C:\Users\DEVELOPER\AppData\Roaming\npm-cache\@ng-d3-charts\bar\1.0.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\DEVELOPER\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\DEVELOPER\AppData\Roaming\npm-cache\@ng-d3-charts\bar\1.0.0\package\package.json written
+21 silly publish { name: '@ng-d3-charts/bar',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'Gráfica de barras utilizando Angular y D3',
+21 silly publish   main: 'bundles/bar-chart.umd.js',
+21 silly publish   module: 'index.js',
+21 silly publish   typings: 'index.d.ts',
+21 silly publish   author: { name: 'José Chin' },
+21 silly publish   license: 'MIT',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/jchinc/ng-d3-charts.git' },
+21 silly publish   homepage: 'https://github.com/jchinc/ng-d3-charts',
+21 silly publish   bugs: { url: 'https://github.com/jchinc/ng-d3-charts.git/issues' },
+21 silly publish   peerDependencies: { '@angular/core': '^2.4.0 || ^4.0.0', rxjs: '^5.0.1' },
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   _id: '@ng-d3-charts/bar@1.0.0',
+21 silly publish   scripts: {},
+21 silly publish   _shasum: '7e48019c81d7deb25205e8d34e8bbdc29b0ec334',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name @ng-d3-charts/bar
+24 silly mapToRegistry scope (from package name) @ng-d3-charts
+25 verbose mapToRegistry no registry URL found in name for scope @ng-d3-charts
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@ng-d3-charts/bar',
+28 silly mapToRegistry   scope: '@ng-d3-charts',
+28 silly mapToRegistry   escapedName: '@ng-d3-charts%2fbar',
+28 silly mapToRegistry   name: '@ng-d3-charts/bar',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/@ng-d3-charts%2fbar
+30 verbose publish registryBase https://registry.npmjs.org/
+31 silly publish uploading C:\Users\DEVELOPER\AppData\Roaming\npm-cache\@ng-d3-charts\bar\1.0.0\package.tgz
+32 verbose request uri https://registry.npmjs.org/@ng-d3-charts%2fbar
+33 verbose request sending authorization for write operation
+34 info attempt registry request try #1 at 17:04:54
+35 verbose request using bearer token for auth
+36 verbose request id 76848fd1384047e7
+37 http request PUT https://registry.npmjs.org/@ng-d3-charts%2fbar
+38 http 402 https://registry.npmjs.org/@ng-d3-charts%2fbar
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'content-length': '49',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Wed, 23 Aug 2017 22:04:55 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-dfw1847-DFW',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1503525895.958126,VS0,VE314' }
+40 verbose request invalidating C:\Users\DEVELOPER\AppData\Roaming\npm-cache\registry.npmjs.org\_40ng-d3-charts_252fbar on PUT
+41 error publish Failed PUT 402
+42 verbose stack Error: You must sign up for private packages : @ng-d3-charts/bar
+42 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+42 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+42 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+42 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+42 verbose stack     at emitTwo (events.js:106:13)
+42 verbose stack     at Request.emit (events.js:191:7)
+42 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+42 verbose stack     at emitOne (events.js:96:13)
+42 verbose stack     at Request.emit (events.js:188:7)
+42 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+43 verbose statusCode 402
+44 verbose pkgid @ng-d3-charts/bar
+45 verbose cwd C:\Users\DEVELOPER\Documents\JOSE\GITHUB\ng-d3-charts\packages\bar\dist
+46 error Windows_NT 10.0.15063
+47 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+48 error node v6.11.1
+49 error npm  v3.10.10
+50 error code E402
+51 error You must sign up for private packages : @ng-d3-charts/bar
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]

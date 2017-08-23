@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/bar-chart.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,oBAAoB,CAAC;AACpD,OAAO,EAAE,iBAAiB,EAAE,MAAM,uBAAuB,CAAC","file":"bar-chart.js","sourceRoot":"","sourcesContent":["export { BarChartModule } from './bar-chart.module';\r\nexport { BarChartComponent } from './bar-chart.component';"]}
