@@ -2,8 +2,8 @@
     "name": "@ng-d3-charts/bar",
     "version": "1.0.0",
     "description": "Gráfica de barras utilizando Angular y D3",
-    "main": "bundles/bar-chart.umd.js",
-    "module": "index.js",
+    "main": "bundles/bar-chart.umd.js", // Código en formato UMD que se utilizará como código origen de los d.ts
+    "module": "index.js",   // Contiene sintaxis ES5 la cual se utiliza al empaquetar desde el proyecto que utilice la librería.
     "typings": "index.d.ts",
     "author": "José Chin",
     "license": "MIT",
